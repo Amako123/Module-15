@@ -1,0 +1,40 @@
+/* Reset some default styles */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set full height for map and page */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style for the legend */
+.legend {
+  color: #555;
+  padding: 6px 8px;
+  font: 14px 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* Style for legend items */
+.legend li {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  margin-right: 5px; /* Add some spacing between legend items */
+  border: 1px solid #ccc; /* Add border for better separation */
+}
+
+/* Center the heading */
+h1 {
+  text-align: center;
+  margin-top: 20px; /* Add margin for better spacing */
+  margin-bottom: 20px; /* Add margin for better spacing */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
